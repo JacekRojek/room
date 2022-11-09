@@ -1,9 +1,4 @@
-import {
-  OrbitControls,
-  OrthographicCamera,
-  PerspectiveCamera,
-  Stage,
-} from "@react-three/drei";
+import { OrbitControls, OrthographicCamera, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import RoomModel from "./RoomModel";
 
@@ -16,7 +11,7 @@ function MainCanvas() {
           height: window.innerHeight - 50,
         }}
       >
-        <OrthographicCamera makeDefault position={[0, 0, 20]} />
+        <OrthographicCamera makeDefault position={[0, 0, 10]} />
         <Stage
           contactShadow={{
             blur: 1,

@@ -7,7 +7,7 @@ function RoomModel() {
   const gltf = useLoader(GLTFLoader, room);
   return (
     <Suspense fallback={null}>
-      <group position={[-1, -1, 5]}>
+      <group scale={[50, 50, 50]} position={[-100, 0, 0]}>
         <primitive object={gltf.scene} />
       </group>
     </Suspense>
