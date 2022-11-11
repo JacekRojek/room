@@ -26,7 +26,6 @@ function MainCanvas() {
           <ambientLight intensity={0.1} />
           <directionalLight color="blue" position={[1, 2, 3]} intensity={1} />
           <RoomModel />
-          47{" "}
         </Stage>
         <OrbitControls />
       </Canvas>
