@@ -1,6 +1,6 @@
 import { useLoader } from "@react-three/fiber";
 import { Suspense } from "react";
-import room from "./assets/room.gltf";
+import room from "./assets/room2.glb";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 function RoomModel() {
