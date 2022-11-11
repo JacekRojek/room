@@ -1,5 +1,6 @@
 {
   "name": "room",
+  "homepage": "https://jacekrojek.github.io/room",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
