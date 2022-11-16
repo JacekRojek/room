@@ -1,5 +1,5 @@
 import "./App.css";
-import MainCanvas from "./MainCanvas";
+import MainCanvas from "./setup/MainCanvas";
 
 function App() {
   return (
