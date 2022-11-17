@@ -4,7 +4,6 @@ import { useRef } from "react";
 
 function Computer() {
   const { nodes, materials } = useGLTF(room);
-  console.log(nodes.Monitor.children[0].geometry, "nodes");
   const ref = useRef();
   return (
     <>

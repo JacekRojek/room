@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import Computer from "./Computer";
 import Desk from "./Desk";
+import Painting from "./Painting";
 import Plant from "./Plant";
 import Walls from "./Walls";
 
@@ -11,6 +12,7 @@ function RoomModel() {
       <Desk />
       <Plant />
       <Computer />
+      <Painting />
     </Suspense>
   );
 }
